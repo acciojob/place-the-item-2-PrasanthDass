@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  justify-content: center;   /* centers items horizontally */
+  align-items: center;       /* centers items vertically */
+  flex-wrap: wrap;           /* ensures extra items move to next row */
+}
+
+
+.item {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.item:nth-child(1) {
+  background: red;
+}
+
+.item:nth-child(2) {
+  background: blue;
+}
+
+.item:nth-child(3) {
+  background: green;
+}
